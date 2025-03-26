@@ -190,6 +190,9 @@ section.topo-site .flex {
 }
 
 .topo-site .img-topo-site img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
