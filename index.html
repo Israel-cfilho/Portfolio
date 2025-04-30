@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portifolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="curriculo">
+        <a href="https://drive.google.com/file/d/1-6yC3LxL4Xvtc5EeNxp4JjnPU22e0fvF/view?usp=sharing" download target="_blank" class="button-curriculo">
+            Baixar currículo
+            <box-icon type='solid' name='download' color="var(--claro)" size="20px"></box-icon>
+        </a>
+    </div>
+
+    <div class="bolhas-tecnologias"></div>
+
+    <div class="particulas"></div>
+
+    <div class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="#home">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                    <span class="title">Home</span>
+                </a>
+            </li>
+
+            <li class="list">
+                <a href="#sobre">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <span class="title">Sobre</span>
+                </a>
+            </li>
+
+            <li class="list">
+                <a href="#projetos">
+                    <span class="icon"><ion-icon name="code-slash-outline"></ion-icon></span>
+                    <span class="title">Projetos</span>
+                </a>
+            </li>
+
+            <li class="list">
+                <a href="#contato">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <span class="title">Contato</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <main id="home" class="cabecalho">
+
+        <img class="foto-perfil" src="images/israel.jpeg" alt="foto israel">
+        <h1>Israel Filho</h1>
+        <p class="cabecalho-paragrafo">
+            <span id="digitando"></span>
+        </p>
+
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Me chamo Israel, tenho 21 anos e atualmente estou cursando o 8° período de Ciências da Computação na UEPB. Tenho grande interesse na área de desenvolvedor Front-end, gosto de aplicar e aprimorar ainda mais as minhas habilidades em HTML, CSS, JavaScript, React.js e TailwindCSS. Gosto de desenvolver interfaces intuitivas e adaptáveis, sempre focando na experiência do usuário
+            </p>
+        </div>
+        <div class="links-projetos">
+            <a href="https://github.com/Israel-cfilho" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://www.instagram.com/israel_cfilho/" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://linkedin.com/in/israel-cfilho/" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+
+            <div class="projetos-card">
+                <img src="images/ducksDelivery.png" alt="loja de carros" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Duck Delivery</h3>
+                    <!-- <p class="paragrafo-projetos">Projeto delivery utilizando React + Vite com Back-end na integração
+                        via APIs REST.</p> -->
+                    <hr>
+                    <div class="links-projetos">
+                        <a href="https://deliveryfront-seven.vercel.app/" target="_blank">
+                            <ion-icon name="code-slash-outline"></ion-icon>
+                        </a>
+                        <a href="https://github.com/Israel-cfilho/DeliveryFront" target="_blank">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="images/login.png" alt="login responsivo" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Login e registro responsivo</h3>
+                    <p class="paragrafo-projetos"></p>
+                    <hr>
+                    <div class="links-projetos">
+                        <a href="https://israel-cfilho.github.io/Responsive-Login-and-registration/" target="_blank">
+                            <ion-icon name="code-slash-outline"></ion-icon>
+                        </a>
+                        <a href="https://github.com/Israel-cfilho/Responsive-Login-and-registration" target="_blank">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="images/previsao-tempo.png" alt="Previsao do tempo" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Previsão do tempo</h3>
+                    <p class="paragrafo-projetos"</p>
+                    <hr>
+                    <div class="links-projetos">
+                        <a href="https://israel-cfilho.github.io/Previsao-tempo/" target="_blank">
+                            <ion-icon name="code-slash-outline"></ion-icon>
+                        </a>
+                        <a href="https://github.com/Israel-cfilho/Previsao-tempo" target="_blank">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="images/cadastro-usuario.png" alt="Cadastro de usuarios" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Cadastro de usuários</h3>
+                    <!-- <p class="paragrafo-projetos">Formulário de cadastro de usuários utilzando React + Firebase
+                    </p> -->
+                    <hr>
+                    <div class="links-projetos">
+                        <a href="https://link-do-site.com" target="_blank">
+                            <ion-icon name="code-slash-outline"></ion-icon>
+                        </a>
+                        <a href="https://github.com/seu-repo" target="_blank">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="contato" class="contato">
+        <h2 class="contato-titulo">Entre em Contato</h2>
+        <form class="formulario-contato" id="formulario">
+            <div class="group-form">
+                <input class="campo-form" placeholder="Nome" />
+            </div>
+
+            <div class="group-form">
+                <textarea class="campo-form" placeholder="Digite sua mensagem"></textarea>
+            </div>
+
+            <button type="submit" class="botao-form">Enviar Whatsapp</button>
+
+        </form>
+    </section>
+
+
+    <footer class="rodape">
+        <p>© 2025 Israel Filho. Todos os direitos reservados.</p>
+    </footer>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
