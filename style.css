@@ -576,6 +576,20 @@ hr {
     }
 }
 
+@media (max-width: 635px) {
+    .curriculo {
+        position: relative;
+    }
+
+    .button-curriculo {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 50%;
+        margin-left: 20px;
+    }
+}
+
 
 @media (max-width: 600px) {
     .foto-perfil {
