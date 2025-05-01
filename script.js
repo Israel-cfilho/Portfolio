@@ -45,7 +45,12 @@ const logos = [
   "https://img.icons8.com/color/48/tailwindcss.png",
   "https://img.icons8.com/color/48/javascript--v1.png",
   "https://img.icons8.com/fluency/48/node-js.png",
-  "https://img.icons8.com/color/48/git.png"
+  "https://img.icons8.com/color/48/git.png",
+  "https://img.icons8.com/fluency/48/vite.png",
+  "https://img.icons8.com/color/48/typescript.png",
+  "https://img.icons8.com/color/48/nodejs.png",
+  "https://img.icons8.com/color/48/nextjs.png",
+  "https://img.icons8.com/external-those-icons-flat-those-icons/24/external-MySQL-programming-and-development-those-icons-flat-those-icons.png"
 ];
 
 function criarBolha() {
