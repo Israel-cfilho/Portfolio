@@ -44,7 +44,6 @@ const logos = [
   "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png",
   "https://img.icons8.com/color/48/tailwindcss.png",
   "https://img.icons8.com/color/48/javascript--v1.png",
-  "https://img.icons8.com/fluency/48/node-js.png",
   "https://img.icons8.com/color/48/git.png",
   "https://img.icons8.com/fluency/48/vite.png",
   "https://img.icons8.com/color/48/typescript.png",
