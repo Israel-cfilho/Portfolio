@@ -281,7 +281,7 @@ h1 {
 }
 
 .skill-card {
-    background-color: #1e293b;
+    background-color: var(--vidro);
     border-radius: 12px;
     padding: 1.5rem;
     width: 150px;
