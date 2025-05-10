@@ -218,14 +218,15 @@ h3 {
 
 h1 {
     font-size: 60px;
-    color: var(--primaria);
+    color: var(--claro);
     font-weight: bold;
     margin: 0 20px;
 }
 
 .cabecalho-paragrafo {
     font-size: 1.5rem;
-    color: var(--claro);
+    color: var(--secundaria);
+    font-weight: bold;
 }
 
 .sobre {
