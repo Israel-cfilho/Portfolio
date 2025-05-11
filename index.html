@@ -278,17 +278,24 @@
 
     <section id="contato" class="contato">
         <h2 class="contato-titulo">Contato</h2>
-        <form class="formulario-contato" id="formulario">
+        <form action="https://formsubmit.co/israelcfilho38@gmail.com" method="POST" class="formulario-contato" id="formulario">
             <div class="group-form">
-                <input class="campo-form" placeholder="Nome" />
+                <input class="campo-form" placeholder="Digite seu nome" />
+            </div>
+
+            <div class="group-form">
+                <input class="campo-form" placeholder="Digite seu email" />
             </div>
 
             <div class="group-form">
                 <textarea class="campo-form" placeholder="Digite sua mensagem"></textarea>
             </div>
 
-            <button type="submit" class="botao-form">Enviar Whatsapp</button>
+            <button type="submit" class="botao-form">Enviar Email</button>
 
+            <input type="hidden" name="_subject" value="Novo contato!">
+            <input type="text" name="_honey" style="display:none;">
+            <input type="hidden" name="_captcha" value="false">
         </form>
     </section>
 
