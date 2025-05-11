@@ -72,3 +72,32 @@ function criarBolha() {
 }
 
 setInterval(criarBolha, 500); // quanto menor, mais logos sobem
+
+// Seleciona todas as seções e todos os itens da navbar
+const sections = document.querySelectorAll("section");
+const navItems = document.querySelectorAll(".navigation ul li");
+
+// Função que atualiza a navbar com base na rolagem
+function updateActiveNav() {
+    let current = "";
+
+    sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+
+        if (scrollY >= sectionTop - sectionHeight / 3) {
+            current = section.getAttribute("id");
+        }
+    });
+
+    navItems.forEach((li) => {
+        li.classList.remove("active");
+        const anchor = li.querySelector("a");
+        if (anchor.getAttribute("href") === `#${current}`) {
+            li.classList.add("active");
+        }
+    });
+}
+
+// Escuta o evento de scroll
+window.addEventListener("scroll", updateActiveNav);
