@@ -7,7 +7,7 @@ function activeLink() {
     list.forEach((item) => 
     item.addEventListener('click', activeLink))
 
-    const texto = "Desenvolvedor Full stack";
+    const texto = "Desenvolvedor Front-end";
     const elemento = document.getElementById("digitando");
     
     let index = 0;
